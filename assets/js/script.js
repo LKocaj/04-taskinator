@@ -224,6 +224,10 @@ for (var i = 0; i < tasks.length; i++) {
   }
   
 
+  var saveTasks = function() {
+
+}  
+
 formEl.addEventListener("submit", taskFormHandler);
 pageContentEl.addEventListener("click", taskButtonHandler);
 pageContentEl.addEventListener("change", taskStatusChangeHandler);
